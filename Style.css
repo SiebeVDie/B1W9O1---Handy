@@ -1,7 +1,7 @@
 .grid-container{
 	display: grid;
 	grid-template-columns: 255px 333px 333px 333px 255px;
-	grid-template-rows: 50px 520px 230px 150px;
+	grid-template-rows: 50px 520px 230px 150px 340px;
 	
 	width: 1400px;
 }
@@ -140,4 +140,17 @@ li.dropdown {
 .weten:hover{
 	background-color: #222931;
 	color: white;
+}
+.footer{
+	grid-row: 5;
+	grid-column: 1/6;
+	width: 1500px;
+	margin-top: 25px;
+
+}
+h1{
+	position: absolute;
+	left:560px;
+	grid-row: 1;
+	grid-column: 3;
 }
