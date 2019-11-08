@@ -1,46 +1,47 @@
 .grid-container{
 	display: grid;
-	grid-template-columns: 333px 333px 333px;
-	grid-template-rows: 50px 380px 205px 150px;
-	margin: 0 auto;
-	width: 1000px;
+	grid-template-columns: 255px 333px 333px 333px 255px;
+	grid-template-rows: 50px 520px 230px 150px;
+	
+	width: 1400px;
 }
 .logo{
 	grid-row: 1;
-	grid-column: 1;
-	margin-left: 100px;
+	grid-column: 2;
+	margin-left: 50px;
 	margin-top: 8px;
 }
 .header{
 	grid-row: 2;
-	grid-column: 1/4;
-	width: 1000px;
-	margin-top: 30px;
+	grid-column: 1/6;
+	width: 1500px;
+	margin-top: 22px;
 	position: static;
 
 }
 .banner1{
 	grid-row: 3;
-	grid-column: 1;
+	grid-column: 2;
 	position: relative;
-	left: 100px;
-	
+	margin: 0 auto;
+	margin-left: 50px;
 }
 .banner2{
 	grid-row: 3;
-	grid-column: 2;
+	grid-column: 3;
 	margin: 0 auto;
 }
 .banner3{
 	grid-row: 3;
-	grid-column: 3;
+	grid-column: 4;
 	position: relative;
-	right: 10px;
+	margin: 0 auto;
+	margin-right: 50px;
 }
 nav{
 	position: absolute;
 	top: 8%;
-	left: 350px;
+	left: 260px;
 }
 ul {
   grid-row: 2;
@@ -50,15 +51,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  width: 830px;
-  height: 45px;
- 
+  width: 1000px;
+  height: 50px;
   font-family: 'Archivo', sans-serif;
   top: 0px;
-  left: 75px;
-
-
-
+  left: 50px;
 }
 
 li {
@@ -86,21 +83,23 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
+  background-color: #222931;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: white;
+  padding: 7px 10px;
   text-decoration: none;
   display: block;
   text-align: left;
+
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;
+.dropdown-content a:hover {
+	background-color: #ffe718;
 }
 
 .dropdown:hover .dropdown-content {
@@ -109,11 +108,36 @@ li.dropdown {
 
 .oplossingen{
 	grid-row: 4;
-	grid-column: 1/4;
+	grid-column: 1/6;
 	font-family: 'Archivo', sans-serif;
-	background-color: yellow;
+	background-color: #ffe718;
 	position: relative;
-	padding-left: 50px;
+	padding-left: 270px;
 	padding-top: 40px;
 }
+.werken{
+	grid-row: 4;
+	grid-column: 2;
+	font-family: 'Archivo', sans-serif;
+	left: 300px;
+	top: 47px;
+	position: relative;
+}
+.weten{
+	
+	font-family: 'Archivo', sans-serif;
+	position: absolute;
+	top:845px;
+	left: 1000px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+    background-color: white;
+}	
 
+
+.weten:hover{
+	background-color: #222931;
+	color: white;
+}
