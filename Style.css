@@ -146,11 +146,38 @@ li.dropdown {
 	grid-column: 1/6;
 	width: 1500px;
 	margin-top: 25px;
-
 }
-h1{
-	position: absolute;
-	left:560px;
-	grid-row: 1;
+.footer1{
+	grid-row: 5;
+	grid-column: 2;
+	width: 285px;
+	height: 90px;
+	background-color: #ffe718;
+	margin-top: 220px;
+	margin-left: 50px;
+}
+.footer1>i{
+	margin-left:20px;
+	margin-top:20px;
+	margin-right: 20px;
+}
+#deals{
+	font-family: 'Archivo', sans-serif;
+	display: inline;
+	bottom: 19px;
+	position: relative;
+}
+.footer2{
+	grid-row: 5;
 	grid-column: 3;
+	width: 285px;
+	height: 90px;
+	background-color: #ffe718;
+	margin-top: 220px;
+	margin-left: 50px;
+}
+.footer2>i{
+	margin-left:20px;
+	margin-top:20px;
+	margin-right: 20px;
 }
